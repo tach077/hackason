@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.header {
+  width: 95%;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+
+.title{
+	font-size: 50px;
+	font-family: Impact;
+	width: 30%;
+	float: left;
+}
+
+.search{
+	padding: 15px 0;
+	text-align: center;
+	float: left;
+	width: 40%;
+
+}
+
+.user{
+	text-align: right;
+	float: left;
+	width: 30%;
+}
+
+.main-visual {
+  width: 100%; /* 横幅 */
+  height: 300px; /* 高さ */
+  
+}
+
+
+
+.side-bar{
+	position:relative;
+	background-color: black;
+	width: 200px;
+	height: 300px;
+	text-align: center;
+	color: white;
+	padding:300px 50px;
+	font-size: 20px;
+  	float: left;
+}
+
+.side-bar ul{
+
+	position: absolute;
+  	top: 35%;
+
+}	
+
+li {
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+.main{
+	
+	float: left;
+}
